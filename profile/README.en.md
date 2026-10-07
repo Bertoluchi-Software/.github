@@ -18,11 +18,11 @@ Our own SaaS, live, built and run by us. Full list at **[bertoluchi.dev/en/produ
 
 | Product | What it does |
 | --- | --- |
-| **[Marcalle](https://marcalle.com.br)** (beta) | Booking for beauty professionals: the client requests a time, the professional approves with one tap, and the confirmation goes out over the official WhatsApp API. |
+| **[Marcalle](https://marcalle.com.br)** | Booking for beauty professionals: the client requests a time, the professional approves with one tap, and the confirmation goes out over the official WhatsApp API. |
 | **[CLIOPsi](https://cliopsi.com.br)** | Clinical platform for psychologists: session transcription, AI-assisted records, scheduling, billing and a briefing before each appointment. |
 | **[Building a Memory](https://bamemory.com.br)** | Video and photo delivery for studios and videographers: the end client watches, downloads and shares on a password-protected page. |
 
-We build and maintain everything with **Claude Code**, by Anthropic: it writes the code and the tests for every change, and Claude agents watch production errors.
+We use AI to deliver faster without lowering the bar: every change goes through a reviewed pull request, automated tests, static analysis and secret scanning before it goes live.
 
 ## What we build
 
@@ -61,7 +61,7 @@ This is the part that usually becomes the client's problem. Here it does not.
 
 **Data** PostgreSQL (with pgvector), SQL Server, SQLite, data modelling, query tuning and execution plan analysis
 
-**Applied AI** Claude (Anthropic) and Claude Code, OpenAI, Azure OpenAI, LangChain, Semantic Kernel, RAG and semantic search with embeddings, RPA, OCR and document extraction, Deepgram for transcription, ML.NET, scikit-learn and Pandas for forecasting, recommendation and reinforcement learning
+**Applied AI** Claude (Anthropic), OpenAI, Azure OpenAI, LangChain, Semantic Kernel, RAG and semantic search with embeddings, RPA, OCR and document extraction, Deepgram for transcription, ML.NET, scikit-learn and Pandas for forecasting, recommendation and reinforcement learning
 
 **Integration** WhatsApp Cloud API, payment gateways and Stripe, banking APIs, Dynamics 365, Power BI, IoT, RabbitMQ, SignalR, webhooks
 
