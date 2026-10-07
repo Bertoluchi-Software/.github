@@ -18,11 +18,11 @@ SaaS próprios, no ar, desenvolvidos e operados por nós. Lista completa em **[b
 
 | Produto | O que faz |
 | --- | --- |
-| **[Marcalle](https://marcalle.com.br)** (beta) | Agenda para profissionais de beleza: a cliente pede o horário, a profissional aprova em um toque e a confirmação sai pelo WhatsApp oficial. |
+| **[Marcalle](https://marcalle.com.br)** | Agenda para profissionais de beleza: a cliente pede o horário, a profissional aprova em um toque e a confirmação sai pelo WhatsApp oficial. |
 | **[CLIOPsi](https://cliopsi.com.br)** | Plataforma clínica para psicólogos: transcrição da sessão, prontuário assistido por IA, agenda, financeiro e briefing antes do atendimento. |
 | **[Building a Memory](https://bamemory.com.br)** | Entrega de vídeos e fotos para estúdios e videomakers: o cliente final assiste, baixa e compartilha numa página protegida por senha. |
 
-Construímos e mantemos tudo com o **Claude Code**, da Anthropic: ele escreve o código e os testes de cada mudança, e agentes do Claude acompanham os erros de produção.
+Usamos IA para entregar mais rápido sem baixar o padrão: toda mudança passa por pull request revisado, testes automatizados, análise estática e varredura de segredos antes de ir ao ar.
 
 ## O que construímos
 
@@ -60,7 +60,7 @@ Esta é a parte que normalmente vira problema do cliente e aqui não vira.
 
 **Banco e dados** PostgreSQL (com pgvector), SQL Server, SQLite, modelagem, tuning de query e análise de plano de execução
 
-**IA aplicada** Claude (Anthropic) e Claude Code, OpenAI, Azure OpenAI, LangChain, Semantic Kernel, RAG e busca semântica com embeddings, RPA, OCR e extração de documento, Deepgram para transcrição, ML.NET, scikit-learn e Pandas para previsão, recomendação e reinforcement learning
+**IA aplicada** Claude (Anthropic), OpenAI, Azure OpenAI, LangChain, Semantic Kernel, RAG e busca semântica com embeddings, RPA, OCR e extração de documento, Deepgram para transcrição, ML.NET, scikit-learn e Pandas para previsão, recomendação e reinforcement learning
 
 **Integração** WhatsApp Cloud API, gateways de pagamento e Stripe, APIs bancárias, Dynamics 365, Power BI, IoT, RabbitMQ, SignalR, webhooks
 
